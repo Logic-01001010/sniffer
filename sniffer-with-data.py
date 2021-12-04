@@ -19,5 +19,5 @@ def sniffing(filter):
     sniff(filter = filter, prn = showPacket, count = 0)  
   
 if __name__ == '__main__':  
-    filter = 'ip host 59.13.100.21'  
+    filter = 'ip host 127.0.0.1'  
     sniffing(filter)  
